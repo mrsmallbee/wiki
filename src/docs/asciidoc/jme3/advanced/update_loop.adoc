@@ -1,4 +1,4 @@
-= Main Update Loop
+= 主要更新循环
 :author: 
 :revnumber: 
 :revdate: 2016/03/17 20:48
@@ -8,35 +8,35 @@
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
 
-Extending your application from com.jme3.app.<<jme3/intermediate/simpleapplication#,SimpleApplication>> provides you with an update loop. This is where you implement your game logic (game mechanics).
+从com.jme3.app.SimpleApplication扩展您的程序。SimpleApplication提供了一个更新循环。这是你实现你的游戏逻辑（游戏机制）。
 
-Some usage examples: Here you remote-control NPCs (computer controlled characters), generate game events, and respond to user input.
+一些有用的例子：在这里你遥控NPC（电脑控制的角色）、生成游戏事件、并且响应用户的输入。
 
-To let you see the main update loop in context, understand that the SimpleApplication does the following:
+为了让你從文中理解主更新循环，SimpleApplication执行以下操作：
 
-*  *Initialization* – Execute `simpleInitApp()` method once.
-*  *Main Update Loop*
-..  Input listeners respond to mouse clicks and keyboard presses – <<jme3/advanced/input_handling#,Input handling>> 
-..  Update game state:
-...  Update overall game state – Execute <<jme3/advanced/application_states#,Application States>>
-...  User code update – Execute `simpleUpdate()` method
-...  Logical update of entities – Execute <<jme3/advanced/custom_controls#,Custom Controls>>
+*  *初始化* –执行一次simpleInitApp（）方法。
+*  *主要更新循环*
+..  输入听众响应鼠标点击和键盘按压– <<jme3/advanced/input_handling#,输入处理>> 
+..  更新游戏状态:
+...  全面更新游戏状态 - 执行 <<jme3/advanced/application_states#,应用程式状态>>
+...  用户代码更新 - 执行 `simpleUpdate()` 方法。
+...  实体的逻辑更新 - 执行 <<jme3/advanced/custom_controls#,自定义控件>>
 
-..  Render audio and video
-...  <<jme3/advanced/application_states#,Application States>> rendering.
-...  Scene rendering.
-...  User code rendering – Execute `simpleRender()` method.
+..  呈现音频和视频
+...  <<jme3/advanced/application_states#,应用程式状态>> 翻译。
+...  场景渲染。
+...  用户代码渲染 - 执行 `simpleRender()`方法。
 
-..  Repeat loop.
+..  重复循环。
 
-*  *Quit* – If user requests `exit()`, execute `cleanup()` and `destroy()`. +The jME window closes and the loop ends.
+*  *退出* –如果用户请求 `exit()`, 执行 `cleanup()`和`destroy()`. +游戏窗口关闭，循环结束。
 
 
-== Usage
+== 运用
 
-In a trivial <<jme3/intermediate/simpleapplication#,SimpleApplication>> (such as a <<jme3/beginner#,Hello World tutorial>>), all code is either in the `simpleInitApp()` (initialization) or `simpleUpdate()` (behaviour) method – or in a helper method/class that is called from one of these two. This trivial approach will make your main class very long, hard to read, and hard to maintain. You don't need to load the whole scene at once, and you don't need to run all conditionals tests all the time.
+在一个简单的<<jme3/intermediate/simpleapplication#,SimpleApplication>> (如 <<jme3/beginner#,Hello World教程>>), 所有的代码是在 `simpleInitApp()` (初始化) or `simpleUpdate()` (行为)方法 - 或一个辅助方法/类，它是由这两个其中一个呼叫。 这个简单的做法会让你的主类很长，难以阅读各和难于维护。你不需要一次加载整个场景，而你并不需要总是运行所有条件表达式测试。
 
-It's a best practice to modularize your game mechanics and spread out initialization and update loop code over several Java objects:
+这是模块化游戏机制,展开初始化和更新Java对象的循环代码的最佳做法：
 
-*  Move modular code blocks from the `simpleInitApp()` method into <<jme3/advanced/application_states#,AppStates>>. Attach AppStates to initialize custom subsets of “one dungeon, and detach it when the player exits this “dungeon. +Examples: Weather/sky audio and visuals, physics collision shapes, sub-rootnodes of individual dungeons including dungeon NPCs, etc.
-*  Move modular code blocks from the `simpleUpdate()` method into the update loops of <<jme3/advanced/custom_controls#,Custom Controls>> to control individual entity behavior (NPCs), and into the update method of <<jme3/advanced/application_states#,AppStates>> to control world events. +Examples: Weather behaviour, light behaviour, physics behaviour, individual NPC behaviour, trap behaviour, etc.
+*  从simpleInitApp（）方法移动模块化代码块到应用状态。 <<jme3/advanced/application_states#,应用状态>>. 连接AppStates來初始化自定义子集“地牢，而当玩家退出時分离這個”地牢。+例如：天气/天的音频和视觉效果、物理碰撞形状、包含地牢NPCs的地牢的子根节点
+*  从简单Update（）方法移动模块化代码块到自定义的更新循环控制<<jme3/advanced/custom_controls#,更新循环控制>>来控制单个实体的行为(NPCs),并进入AppStates<<jme3/advanced/application_states#,AppStates>>控制世界事件的更新方法。+例如：天气现象，光的行为，物理行为，独立NPC的行为，陷阱的行为，等等。
