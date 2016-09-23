@@ -42,9 +42,9 @@ image::jme3/beginner/beginner-physics.png[beginner-physics.png,with="360",height
 ..  <<jme3/beginner/hello_vector_zh#,向量(Vector)>> – 可视化向量与向量操作
 ..  <<jme3/beginner/hello_chase_camera_zh#,摄像机(Camera)>> – aka的第三人称摄像机示例代码
 
-See also: <<sdk/sample_code#,运行示例代码遇到了问题吗>>?
+也可以看看: <<sdk/sample_code#,运行示例代码遇到了问题吗>>?
 
-For more help getting started, check out this tuts+ guide on “link:http://gamedevelopment.tutsplus.com/articles/how-to-learn-jmonkeyengine-3--gamedev-10479[ How to learn jMonkeyEngine 3].
+欲了解更多入门帮助，看看这个TUTS+指导 “link:http://gamedevelopment.tutsplus.com/articles/how-to-learn-jmonkeyengine-3--gamedev-10479[ 如何学习jMonkeyEngine3].
 
 
 == 中级教程
@@ -87,7 +87,7 @@ For more help getting started, check out this tuts+ guide on “link:http://game
 *  link:http://www.youtube.com/watch?v=-OzRZscLlHY[Video: jMonkeyEngine SDK Use Case Demo 1 (Quixote)]
 *  link:http://www.youtube.com/watch?v=6-YWxD3JByE[Video: jMonkeyEngine SDK Use Case Demo 2 (Models and Materials)]
 
-Learn from sample code in link:https://github.com/jMonkeyEngine/jmonkeyengine/tree/master/jme3-examples/src/main/java/jme3test[src/main/java/jme3test] (also available in the sdk by File &gt; New Project &gt; JME3 Tests) and the example games provided by the community!
+從链接的示例代码學習:https://github.com/jMonkeyEngine/jmonkeyengine/tree/master/jme3-examples/src/main/java/jme3test[src/main/java/jme3test] (在sdk中也可找到:File &gt; New Project &gt; JME3 Tests) 和由游戏社区提供的游戏范例！
 
 
 == 进阶教程
@@ -99,8 +99,8 @@ Learn from sample code in link:https://github.com/jMonkeyEngine/jmonkeyengine/tr
 *  <<jme3/advanced/update_loop#,主循环>>
 *  <<jme3/advanced/application_states#,AppStates>>
 *  <<jme3/advanced/custom_controls#,自定义Control>>
-**  link:http://www.youtube.com/watch?v=MNDiZ9YHIpM[Video: How to control any scene node]
-**  link:http://www.youtube.com/watch?v=-OzRZscLlHY[Video: How to remote control a character in a scene]
+**  link:http://www.youtube.com/watch?v=MNDiZ9YHIpM[视频：如何控制任何场景节点]
+**  link:http://www.youtube.com/watch?v=-OzRZscLlHY[视频：如何远程控制场景中的角色]
 
 *  <<jme3/advanced/multithreading#,多线程>>
 
@@ -120,153 +120,153 @@ Learn from sample code in link:https://github.com/jMonkeyEngine/jmonkeyengine/tr
 
 *动画和场景*
 
-*  <<jme3/advanced/animation#,Animation>>
-*  <<jme3/advanced/cinematics#,Cinematics (cutscenes, fake destruction physics)>>
-*  <<jme3/advanced/motionpath#,MotionPaths and waypoints>>
-*  <<jme3/external/blender#,Creating jME3 compatible 3D models in Blender>>
+*  <<jme3/advanced/animation#,动画>>
+*  <<jme3/advanced/cinematics#,过场动画（过场动画，假的破坏物理）>>
+*  <<jme3/advanced/motionpath#,运动路径和航点>>
+*  <<jme3/external/blender#,在Blender创建jME3兼容的3D模型>>
 *  <<jme3/advanced/makehuman_blender_ogrexml_toolchain#,MakeHuman Blender OgreXML toolchain for creating and importing animated human characters>>
-*  <<sdk/blender#,Converting Blender Models to JME3 (.J3o files)>>
-**  link:https://www.youtube.com/watch?v=QiLCs4AKh28[Video: Import animated models from Blender 2.6 to JME3]
-**  link:http://www.youtube.com/watch?v=NdjC9sCRV0s[Video: Creating and Exporting OgreXML Animations from Blender 2.61 to JME3]
-**  link:https://docs.google.com/fileview?id=0B9hhZie2D-fENDBlZDU5MzgtNzlkYi00YmQzLTliNTQtNzZhYTJhYjEzNWNk&hl=en[Scene Workflow:]
+*  <<sdk/blender#,转换Blender模型至JME3 (.J3o files)>>
+**  link:https://www.youtube.com/watch?v=QiLCs4AKh28[视频：由Blender 2.6 导入动画模型至JME3]
+**  link:http://www.youtube.com/watch?v=NdjC9sCRV0s[视频：由Blender 2.61创建和导出OgreXML动画至JME3]
+**  link:https://docs.google.com/fileview?id=0B9hhZie2D-fENDBlZDU5MzgtNzlkYi00YmQzLTliNTQtNzZhYTJhYjEzNWNk&hl=en[场景工作流程：]
 
 
-Create jme3 compatible racing tracks in blender
-* link:http://www.youtube.com/watch?v=3481ueuDJwQ&feature=youtu.be[Video: Create jme3 compatible models in blender]
+创建blender兼容的jme3赛车场
+* link:http://www.youtube.com/watch?v=3481ueuDJwQ&feature=youtu.be[视频：在blender创建jme3兼容的模型]
 
-Exporting OgreXML scenes from Blender to JME3
+由Blender导出OgreXML至JME3场景
 
-*  link:https://docs.google.com/leaf?id=0B9hhZie2D-fEYmRkMTYwN2YtMzQ0My00NTM4LThhOTYtZTk1MTRlYTNjYTc3&hl=en[Animation Workflow: Create Animated UV-Mapped OgreXML Models in Blender, and use them in JME3]
-**  link:http://www.youtube.com/watch?v=IDHMWsu_PqA[Video: Creating Worlds with Instances in Blender]
-**  <<jme3/advanced/ogrecompatibility#,OgreCompatibility>>
+*  link:https://docs.google.com/leaf?id=0B9hhZie2D-fEYmRkMTYwN2YtMzQ0My00NTM4LThhOTYtZTk1MTRlYTNjYTc3&hl=en[动画工作流程：在Blender创建Animated UV-Mapped OgreXML模型，并在JME3中使用它们]
+**  link:http://www.youtube.com/watch?v=IDHMWsu_PqA[视频：用Blender实例创建世界]
+**  <<jme3/advanced/ogrecompatibility#,Ogre的兼容性>>
 
 *材质、光影*
 
-*  <<jme3/intermediate/how_to_use_materials#,How to Use Materials>>
-*  <<jme3/advanced/j3m_material_files#,Creating .j3m Materials>>
-*  <<jme3/advanced/material_definitions#,How to Use Material Definitions (.j3md)>>
-*  <<jme3/advanced/materials_overview#,All Material Definition Properties>>
-*  <<jme3/advanced/anisotropic_filtering#,Anisotropic Filtering for Textures>>
-*  <<jme3/advanced/light_and_shadow#,Light and Shadow>>
-*  <<jme3/advanced/jme3_shaders#,About JME3 and Shaders>>
-*  <<jme3/advanced/jme3_shadernodes#,Shader Node System>>
-*  <<jme3/advanced/jme3_srgbpipeline#,Gamma correction or sRGB pipeline>>
-*  <<jme3/shader_video_tutorials#,Videos: jME3 introduction to shaders video tutorial series>>
-*  link:http://www.youtube.com/watch?v=IuEMUFwdheE[Video: jME3 Material with Alpha Channel]
+*  <<jme3/intermediate/how_to_use_materials#,如何使用材质>>
+*  <<jme3/advanced/j3m_material_files#,创建.j3m材质>>
+*  <<jme3/advanced/material_definitions#,如何使用材质定义 (.j3md)>>
+*  <<jme3/advanced/materials_overview#,所有材质定义属性>>
+*  <<jme3/advanced/anisotropic_filtering#,各向异性过滤的纹理>>
+*  <<jme3/advanced/light_and_shadow#,光影>>
+*  <<jme3/advanced/jme3_shaders#,关于JME3和着色器>>
+*  <<jme3/advanced/jme3_shadernodes#,着色器节点系统>>
+*  <<jme3/advanced/jme3_srgbpipeline#,伽马校正或sRGB管道>>
+*  <<jme3/shader_video_tutorials#,视频：jME3 介绍着色器的视频教程系列>>
+*  link:http://www.youtube.com/watch?v=IuEMUFwdheE[视频：jME3材质与 Alpha Channel]
 
 *物理集成*
 
-*  <<jme3/advanced/physics#,Physics: Gravity, Collisions, Forces>>
-*  <<jme3/advanced/bullet_multithreading#,Multi-Threaded Physics>>
-*  <<jme3/advanced/physics_listeners#,Physics Listeners and Collision Detection>>
-*  <<jme3/advanced/hinges_and_joints#,Hinges and Joints>>
-*  <<jme3/advanced/walking_character#,Walking Character>>
-*  <<jme3/advanced/ragdoll#,Ragdoll>>
-*  <<jme3/advanced/vehicles#,Vehicles>>
-*  <<jme3/advanced/ray_and_sweep_tests#,Physics Rays and Sweep Tests>>
-*  link:http://www.youtube.com/watch?v=yS9a9o4WzL8[Video: Mesh Tool &amp; Physics Editor]
+*  <<jme3/advanced/physics#,物理：重力，碰撞，力量>>
+*  <<jme3/advanced/bullet_multithreading#,多线程物理>>
+*  <<jme3/advanced/physics_listeners#,物理监听器和碰撞检测>>
+*  <<jme3/advanced/hinges_and_joints#,铰链和關節>>
+*  <<jme3/advanced/walking_character#,行走中的角色>>
+*  <<jme3/advanced/ragdoll#,布娃娃>>
+*  <<jme3/advanced/vehicles#,载具>>
+*  <<jme3/advanced/ray_and_sweep_tests#,物理射线和扫描测试>>
+*  link:http://www.youtube.com/watch?v=yS9a9o4WzL8[视频：网格工具和放大器;物理编辑器]
 
 *音频和视频*
 
-*  <<jme3/advanced/audio#,Audio: Playing Sounds>>
-*  <<jme3/advanced/audio_environment_presets#,Audio Environment Presets>>
-*  <<jme3/advanced/video#,Video: Playing Clips>>
-*  <<jme3/advanced/screenshots#,Capture Screenshots>>
-*  <<jme3/advanced/capture_audio_video_to_a_file#,Capture Audio/Video to a File>>
+*  <<jme3/advanced/audio#,音频：播放声音>>
+*  <<jme3/advanced/audio_environment_presets#,音频环境预置>>
+*  <<jme3/advanced/video#,视频：播放剪辑>>
+*  <<jme3/advanced/screenshots#,捕捉截图s>>
+*  <<jme3/advanced/capture_audio_video_to_a_file#,捕捉音频/视频到档案>>
 
 *后置处理过滤器与特效*
 
-*  <<jme3/advanced/effects_overview#,Effects and Filters Overview>>
+*  <<jme3/advanced/effects_overview#,效果和滤镜概述>>
 *  <<jme3/advanced/bloom_and_glow#,Bloom and Glow>>
-*  <<jme3/advanced/particle_emitters#,Particle Emitters>>
+*  <<jme3/advanced/particle_emitters#,粒子发射器>>
 
 *地形*
 
-*  <<jme3/advanced/sky#,Sky>>
-*  <<jme3/advanced/terrain#,Terrain (TerraMonkey)>>
-*  <<jme3/advanced/endless_terraingrid#,Endless Terrain (TerrainGrid)>>
-*  <<jme3/advanced/terrain_collision#,Terrain Collision>>
-*  <<jme3/contributions/cubes#,Cubes - A Block World Framework>>
-*  <<jme3/advanced/water#,Simple Water>>
-*  <<jme3/advanced/post-processor_water#,Post-Processor Water (SeaMonkey)>>
-*  <<jme3/contributions/vegetationsystem#,Vegetation System>>
+*  <<jme3/advanced/sky#,天空>>
+*  <<jme3/advanced/terrain#,地形 (TerraMonkey)>>
+*  <<jme3/advanced/endless_terraingrid#,无尽的地形 (TerrainGrid)>>
+*  <<jme3/advanced/terrain_collision#,地形碰撞>>
+*  <<jme3/contributions/cubes#,立方体-  一個块狀世界框架>>
+*  <<jme3/advanced/water#,简单的水>>
+*  <<jme3/advanced/post-processor_water#,水后处理器 (SeaMonkey)>>
+*  <<jme3/contributions/vegetationsystem#,植被系统>>
 
 *人工智能(AI)*
 
-*  <<jme3/advanced/recast#,Recast Navigation>>
-*  <<jme3/advanced/building_recast#,Updating and building Recast Native Bindings>>
+*  <<jme3/advanced/recast#,重铸导航>>
+*  <<jme3/advanced/building_recast#,更新和建设重铸本水地绑定>>
 *  <<jme3/advanced/monkey_brains#,Monkey Brains>>
-*  <<jme3/advanced/steer_behaviours#,Steer Behaviours>>
+*  <<jme3/advanced/steer_behaviours#,转向行为>>
 
 *多人联网游戏*
 
-*  <<jme3/advanced/networking#,Multiplayer Networking (SpiderMonkey)>>
+*  <<jme3/advanced/networking#,多人联网 (SpiderMonkey)>>
 *  <<jme3/advanced/headless_server#,Headless Server>>
-*  <<jme3/advanced/monkey_zone#,Monkey Zone: Multi-Player Demo Code>>
+*  <<jme3/advanced/monkey_zone#,Monkey Zone: 多人演示代码>>
 *  <<jme3/advanced/open_game_finder#,Open Game Finder>>
-*  <<jme3/advanced/networking_video_tutorials#,Videos: jME3 networking video tutorial series>> 
+*  <<jme3/advanced/networking_video_tutorials#,视频：jME3联网 视频教程系列>> 
 
 *实体系统*
 
-*  <<jme3/contributions/entitysystem#, The Zay-ES Entity System>>
+*  <<jme3/contributions/entitysystem#,Zay-ES实体系统>>
 
 *摄像机*
 
-*  <<jme3/advanced/camera#,Camera>>
-*  <<jme3/advanced/making_the_camera_follow_a_character#,Making the Camera Follow a Character>>
-*  <<jme3/advanced/remote-controlling_the_camera#,Remote-Controlling the Camera>>
-*  <<jme3/advanced/multiple_camera_views#,Multiple Camera Views>> 
+*  <<jme3/advanced/camera#,摄像机>>
+*  <<jme3/advanced/making_the_camera_follow_a_character#,使摄像机跟随一个角色>>
+*  <<jme3/advanced/remote-controlling_the_camera#,远程控制摄像机>>
+*  <<jme3/advanced/multiple_camera_views#,多个摄像机视图>> 
 
 *用户交互*
 
-*  <<jme3/advanced/input_handling#,Input Handling>>
+*  <<jme3/advanced/input_handling#,输入处理>>
 **  link:https://github.com/jMonkeyEngine-Contributions/Lemur/wiki/Modules[Lemur Scene Graph Tools]
-***  link:http://hub.jmonkeyengine.org/t/lemur-gems-1-inputmapper-based-camera-movement/28703[Lemur Gems #1 - Input mapper based camera movement. ]
-***  link:http://hub.jmonkeyengine.org/t/lemur-gems-2-inputmapper-delegates/28710[Lemur Gems #2 - Input mapper delegates]
-***  link:http://hub.jmonkeyengine.org/t/lemur-gems-3-scene-picking/28713[Lemur Gems #3 - Scene picking]
+***  link:http://hub.jmonkeyengine.org/t/lemur-gems-1-inputmapper-based-camera-movement/28703[Lemur Gems＃1- 基于摄像头的运动输入映射器。 ]
+***  link:http://hub.jmonkeyengine.org/t/lemur-gems-2-inputmapper-delegates/28710[Lemur Gems＃2 - 输入映射代表]
+***  link:http://hub.jmonkeyengine.org/t/lemur-gems-3-scene-picking/28713[Lemur Gems＃3 - 场景选择]
 
 
-*  <<jme3/advanced/combo_moves#,Combo Moves>>
-*  <<jme3/advanced/mouse_picking#,Mouse Picking: Click to Select>>
+*  <<jme3/advanced/combo_moves#,组合动作>>
+*  <<jme3/advanced/mouse_picking#,鼠标采摘：点击选择>>
 
 *图形用户界面(+++<abbr title="Graphical User Interface">GUI</abbr>+++)*
 
-*  link:https://github.com/jMonkeyEngine-Contributions/Lemur[Lemur - a native jME3 GUI library with scene graph tools]
-*  <<jme3/contributions/tonegodgui#,tonegodGUI - a native jME3 GUI library>>
-*  <<jme3/advanced/nifty_gui#,Nifty GUI - JME3 Integration Tutorial>>
-*  <<jme3/advanced/nifty_gui_best_practices#,Nifty GUI - Best Practices>>
-*  <<jme3/advanced/nifty_gui_scenarios#,Nifty GUI Scenarios (Load Screen etc)>>
-*  <<jme3/advanced/hud#,Head-Up Display (HUD)>>
-*  <<jme3/advanced/localization#,Localization>>
+*  link:https://github.com/jMonkeyEngine-Contributions/Lemur[Lemur - 本地jME3 GUI库与场景图工具]
+*  <<jme3/contributions/tonegodgui#,tonegodGUI - 本地jME3 GUI库>>
+*  <<jme3/advanced/nifty_gui#,Nifty GUI- JME3教程合集>>
+*  <<jme3/advanced/nifty_gui_best_practices#,Nifty GUI - 最佳实践>>
+*  <<jme3/advanced/nifty_gui_scenarios#,Nifty GUI用户界面脚本（加载屏幕等）>>
+*  <<jme3/advanced/hud#,抬头显示器（HUD）>>
+*  <<jme3/advanced/localization#,本地化>>
 *  <<jme3/advanced/swing_canvas#,Swing Canvas>>
 
 *自定义渲染*
 
-*  <<jme3/advanced/jme3_forwardrendering#,Forward Rendering process>>
-*  <<jme3/advanced/jme3_renderbuckets#,Render Buckets>>
+*  <<jme3/advanced/jme3_forwardrendering#,正向渲染过程>>
+*  <<jme3/advanced/jme3_renderbuckets#,渲染桶>>
 
 *自定义工具*
 
 *  <<jme3/tools/navigation#,Mercator Projection Tool (Marine Navigation)>>
-*  <<jme3/tools/charts#,Visualizing Maps in JME3 (Marine Charts)>>
-*  <<jme3/advanced/atom_framework#,Atom framework. Mash-up of other plugins>>
+*  <<jme3/tools/charts#,JME3里的可视化地图 (Marine Charts)>>
+*  <<jme3/advanced/atom_framework#,原子架构。其他插件的混搭>>
 
 *日志与调试*
 
-*  <<jme3/advanced/logging#,Logging>>
-*  <<sdk/log_files#,Log Files>>
-*  <<jme3/advanced/read_graphic_card_capabilites#,Read Graphic Card Capabilites>>
-*  <<jme3/advanced/debugging#,Debugging with Wireframes>>
+*  <<jme3/advanced/logging#,记录>>
+*  <<sdk/log_files#,日志文件>>
+*  <<jme3/advanced/read_graphic_card_capabilites#,阅读图形卡功能>>
+*  <<jme3/advanced/debugging#,线框调试>>
 
 *Android项目开发*
 
-*  <<jme3/advanced/android#,Android Project Cheat Sheet>>
+*  <<jme3/advanced/android#,Android项目小抄>>
 
 *项目部署*
 
 *  <<jme3/android#,Android>>
-*  <<sdk/application_deployment#,Application Deployment (using jMonkeyEngine SDK)>>
-*  <<jme3/webstart#,WebStart Deployment (without jMonkeyEngine SDK)>>
+*  <<sdk/application_deployment#,应用程序部署（使用jMonkeyEngine SDK）>>
+*  <<jme3/webstart#,WebStart Deployment (不使用jMonkeyEngine SDK)>>
 
 *脚本*
 
@@ -274,60 +274,60 @@ Exporting OgreXML scenes from Blender to JME3
 
 *虚拟现实&amp;模拟器*
 
-*  <<jme3/virtualreality#, Virtual Reality. OpenCV &amp; JavaCV>>
+*  <<jme3/virtualreality#,虚拟现实. OpenCV &amp; JavaCV>>
 
-*jMonkey User Contributions*
+*jMonkey用户贡献*
 
-*  <<jme3/contributions#, Contributions - User made utilities to add functionality to the engine.>>
+*  <<jme3/contributions#, 贡献 - 用户制作工具来添加引擎的功能>>
 
-*Sample Projects*
+*示例项目*
 
-*  <<sdk/sample_code#,JmeTests>> – The “official sample project JmeTests.
-*  link:http://code.google.com/p/jmonkeyengine/source/browse/BookSamples/#BookSamples%2Fsrc[BookSamples] – Some more jME3 code samples
+*  <<sdk/sample_code#,JmeTests>> –官方示例项目JmeTests。
+*  link:http://code.google.com/p/jmonkeyengine/source/browse/BookSamples/#BookSamples%2Fsrc[BookSamples] –更多jME3代码示例
 
-These code examples are not supported by the core team and we cannot guarantee their correctness:
+这些例子不是由核心团队提供，我们无法保证其正确性：
 
-*  <<jme3/user_examples_project#,User Examples Project>> – The jME3 users examples project.
-*  <<jme3/shaderblow_project#,ShaderBlow Project>> – The jME3 users shaders project.
+*  <<jme3/user_examples_project#,User Examples Project>> – jME3用户实例项目。
+*  <<jme3/shaderblow_project#,ShaderBlow Project>> – jME3用户着色器项目。
 *  <<jme3/rise_of_mutants_project#,Rise of Mutants Project>> – Rise of Mutants Project by BigBoots Team.
-*  <<jme3/atomixtuts#,atomixtuts>> – Atomix Tutorial Series
-*  link:http://code.google.com/p/street-rally-3d/source/browse/#svn%2Ftrunk%2Fsrc%2Fsr3d[Street rally 3d source code] – A racing game programmed by rhymez.
+*  <<jme3/atomixtuts#,atomixtuts>> – Atomix教程系列
+*  link:http://code.google.com/p/street-rally-3d/source/browse/#svn%2Ftrunk%2Fsrc%2Fsr3d[Street rally 3d source code] – 由rhymez编程的赛车游戏。
 
 
-== SDK Documentation
+== SDK文档
 
 
 image::sdk/jmonkeyplatform-docu-2.png[jmonkeyplatform-docu-2.png,with="420",height="300",align="right"]
 
 
-The <<sdk#,jMonkeyEngine SDK>> is our recommended game development environment.
+<<sdk#,jMonkeyEngine SDK>>是我们推荐的游戏开发环境。
 
 *  <<sdk/comic#,jMonkeyEngine SDK - the Comic>>
 *  <<sdk#,SDK Documentation (All editors, plugins, etc)>>
 
-Here are some videos of how the jMonkeyEngine SDK makes your development team's life easier:
+一些關於jMonkeyEngine SDK是如何使你的开发团队的生活更轻松的影片：
 
-*  link:http://www.youtube.com/watch?v=nL7woH40i5c[Video: Importing Models]
-*  link:http://www.youtube.com/watch?v=ntPAmtsQ6eM[Video: Scene Composing]
+*  link:http://www.youtube.com/watch?v=nL7woH40i5c[视频：导入模型]
+*  link:http://www.youtube.com/watch?v=ntPAmtsQ6eM[视频：场景创作]
 *  link:http://www.youtube.com/watch?v=DUmgAjiNzhY[Video: Dragging&amp;Dropping Nodes]
-*  link:http://www.youtube.com/watch?v=Feu3-mrpolc[Video: Working with Materials]
+*  link:http://www.youtube.com/watch?v=Feu3-mrpolc[视频：使用材质工作]
 *  link:http://www.youtube.com/watch?v=oZnssg8TBWQ[Video: WebStart Deployment]
-*  link:http://www.youtube.com/watch?v=MNDiZ9YHIpM[Video: Custom Controls]
-*  Read the <<sdk#,SDK documentation>> for details.
+*  link:http://www.youtube.com/watch?v=MNDiZ9YHIpM[视频：自定义Controls]
+*  阅读 <<sdk#,SDK文档>> 了解详情。
 
 
 == 下载和安装JME3
 
-*  <<bsd_license#,Use jMonkeyEngine 3 for free under the BSD License>>
-*  <<jme3/requirements#,Software and hardware requirements>>
-*  <<jme3/features#,All Supported Features>>
-*  link:http://jmonkeyengine.org/wiki/doku.php#Installation[Download jMonkeyEngine 3 SDK]
+*  <<bsd_license#,根据BSD许可协议免费使用jMonkeyEngine3>>
+*  <<jme3/requirements#,软件和硬件需求>>
+*  <<jme3/features#,所有支持的功能>>
+*  link:http://jmonkeyengine.org/wiki/doku.php#Installation[下载jMonkeyEngine 3 SDK]
 
 
-== Feedback
+== 反馈
 
-jME3 is in development; if a tutorial doesn't work as expected, try using the latest daily build. If that doesn't “fix it then:
+jME3正在开发中，如教程未按预期工作，请尝试使用最新的daily build。如果没有则修复它：
 
-*  link:http://code.google.com/p/jmonkeyengine/issues/list?can=2&q=label:Component-Docs[Report a Documentation Task]
-*  link:http://jmonkeyengine.org/wiki/doku.php/report_bugs[Report a Bug]
-*  link:http://jmonkeyengine.org/forums[Ask (and Answer!) Questions on the Forum]
+*  link:http://code.google.com/p/jmonkeyengine/issues/list?can=2&q=label:Component-Docs[报告文档任务]
+*  link:http://jmonkeyengine.org/wiki/doku.php/report_bugs[报告错误]
+*  link:http://jmonkeyengine.org/forums[在论坛上发问（和回答！）问题]
